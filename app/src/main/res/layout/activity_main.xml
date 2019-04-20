@@ -34,7 +34,10 @@
                 android:text="50개"/>
         </LinearLayout>
 
-
+        <ListView
+            android:id="@+id/roomListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ListView>
 
     </LinearLayout>
 
