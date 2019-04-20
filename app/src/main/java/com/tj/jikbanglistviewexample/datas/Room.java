@@ -2,11 +2,11 @@ package com.tj.jikbanglistviewexample.datas;
 
 public class Room {
 
-    int deposit;    // 보증금
-    int month_pay;   // 월세
-    String location;    // eofkrwjrdls wldur
-    int floor;  // 몇층인지. 만약 지하라면 음수값. -2
-    String description; //설명 문구
+    public int deposit;    // 보증금
+    public int month_pay;   // 월세
+    public String location;    // eofkrwjrdls wldur
+    public int floor;  // 몇층인지. 만약 지하라면 음수값. -2
+    public String description; //설명 문구
 
     public Room(int deposit, int month_pay, String location, int floor, String description) {
         this.deposit = deposit;
